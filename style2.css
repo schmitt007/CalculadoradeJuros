@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:linear-gradient(rgba(2, 0, 66, 0.748), rgba(0, 9, 93, 0.627));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+button{
+    background-color: rgba(6, 0, 59, 0.66);
+    cursor: pointer;
+    width: 200px;
+    height: 30px;
+    border: 3px solid rgba(0, 7, 43, 0.451);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}

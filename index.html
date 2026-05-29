@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Juros</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+ 
+<body>
+
+    <div class="areaBotao">
+    <button onclick="irParaPagina()">
+        Sobre Juros
+    </button>
+    </div>
+
+    <form action="">
+        <h1>Calculadora de Juros</h1>
+        <label for="capital">Capital:</label><br>
+        <input type="number" placeholder="Insira o valor da capital" id="capital"><br>
+        <label for="taxa">Taxa:</label><br>
+        <input type="number" placeholder="Insira a taxa" id="taxa"><br>
+        <label for="tempo">Tempo(meses):</label><br>
+        <input type="number" placeholder="Ex:12" id="tempo"><br>
+        <label for="juros">Escolha um tipo de juros:</label><br>
+        <select name="juros" id="juros">
+            <option value="" selected disabled>
+                Selecione uma opção
+            </option>
+            <option value="simples">
+                Juros Simples
+            </option>
+            <option value="composto">
+                Juros Composto
+            </option>
+        </select><br><br>
+        <button type="button" onclick="calcular()">
+            Calcular
+        </button>
+        <button type="button" onclick="limpar()">
+            Novo cálculo
+        </button>
+        <p id="resultado"></p>
+    </form>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

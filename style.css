@@ -1,0 +1,105 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient( rgba(0, 2, 71, 0.3), rgba(0, 10, 78, 0.397)), url("./imagem.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+}
+
+form{
+    width: 400px;
+    height: 600px;
+    padding: 40px;
+    border-radius: 25px;
+    background: rgba(0, 8, 70, 0.75);
+    border: 5px solid rgba(0, 6, 75, 0.215);
+    box-shadow:0 0 20px rgba(0,0,0,0.5);
+}
+
+label{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+input{
+    width: 320px;
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 18px;
+    border-radius: 10px;
+    background: rgba(0, 8, 80, 0.12);
+    color: white;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+button{
+    width: 49%;
+    padding: 12px;
+    border: 3px solid rgba(0, 7, 43, 0.451);
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+    background-color: rgba(0, 4, 44, 0.542);
+}
+
+select{
+    margin-top: 10px;
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+    transition: 0.3s;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 4, 44, 0.273);
+    cursor: pointer;
+    border: 2px solid rgba(6, 0, 47, 0.386)
+}
+
+#resultado{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.08);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.areaBotao{
+    width: 200px;
+    margin-top: 440px; 
+    display: flex;
+    justify-content: center;
+}
+.areaBotao button{
+    padding: 16px; 
+    font-size: 16px; 
+    border-radius: 14px;
+    border: 1px solid rgba(255,255,255,0.2);
+    background: rgba(0, 10, 60, 0.4);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
